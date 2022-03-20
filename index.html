@@ -19,11 +19,16 @@
    <body>
       <div class="wrapper">
          <header class="section-header">
-            <div class="base-container header-container">
+            <div class="base-container header-container top-nav" id="myTopNav">
                <div class="logo">
                   <img src="assets/polygon.png" alt="polygon" class="polygon">
                   <img src="assets/skilline.png" alt="brand-name" class="brand-name">
                </div>
+
+               <a class="icon" href="javascript:void(0);" onclick="handleBurgerMenuFn()">
+                  <i class="fa fa-bars" id="open-hamburger-menu-icon"></i>
+                  <i class="fas fa-times" id="close-hamburger-menu-icon"></i>
+               </a>
 
                <div class="menu-container">
                   <a href="#" class="menu-item">Home</a>
@@ -53,7 +58,52 @@
 
                   <div class="right-container">
                      <img class="girl-image" src="assets/teenage-girl.png" alt="girl-background-img">
+                     <img class="popularity-icon" src="assets/popularity.png" alt="popularity.png">
+
+                     <div class="card card-students">
+                        <div class="card-icon-container">
+                           <div class="card-icon">
+                              <img src="assets/calendar.png" alt="calendar.png">
+                           </div>
+                        </div>
+                        <div class="card-text-container">
+                           <div class="card-title">250k</div>
+                           <div class="card-subtitle">Assisted Student</div>
+                        </div>
+                     </div>
+
+                     <div class="card card-congratulation">
+                        <div class="card-icon-container">
+                           <div class="card-icon">
+                              <img src="assets/email.png" alt="calendar.png">
+                           </div>
+                        </div>
+                        <div class="card-text-container">
+                           <div class="card-title">Congratulations</div>
+                           <div class="card-subtitle">Your admission completed</div>
+                        </div>
+                        <img src="/assets/verified.png" alt="verified.png" class="card-verified-sign">
+                     </div>
+
+                     <div class="card card-user">
+                        <div class="card-icon-container">
+                           <div class="card-icon">
+                              <img src="assets/avatar.png" alt="avatar.png">
+                           </div>
+                           <img class="active-user" src="assets/active-user.png" alt="active-user.png">
+                        </div>
+                        <div class="card-text-container">
+                           <div class="card-title">User Experience Class</div>
+                           <div class="card-subtitle">Today at 12.00 PM</div>
+                           <div class="card-btn">Join Now</div>
+                        </div>
+                     </div>
                   </div>
+               </div>
+            </div>
+            <div class="partners">
+               <div class="base-container">
+
                </div>
             </div>
          </main>

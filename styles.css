@@ -95,6 +95,14 @@ input, button, textarea, select {
     left: 40px;
 }
 
+#open-hamburger-menu-icon {
+    display: none;
+}
+
+#close-hamburger-menu-icon {
+    display: none;
+}
+
 .menu-item, .menu-item:visited {
     margin-right: 80px;
 
@@ -131,13 +139,14 @@ input, button, textarea, select {
     background-color: #F48C06;
 }
 
+.main-container {
+}
+
 .introduction-container {
     background-color: #FFF2E1;
-    padding-bottom: 240px;
-
-    /*height: 150px;*/
-    /*width: 100%;*/
-    /*border-radius:0 0 1000% 1000%;*/
+    padding-bottom: 420px;
+    border-radius: 0 0 100% 100%;
+    margin: 0 -400px;
 }
 
 .introduction-content-container {
@@ -148,7 +157,7 @@ input, button, textarea, select {
 
 .title {
     color: #2F327D;
-    padding: 335px 0 35px 40px;
+    padding: 150px 0 35px 40px;
     margin-right: 60px;
     max-width: 690px;
 
@@ -233,16 +242,464 @@ input, button, textarea, select {
 .girl-image {
     position: absolute;
     right: 110px;
-    top: 0;
+    top: -20px;
+    border-radius: 0 0 750px/125px 0;
+}
+
+.popularity-icon {
+    position: absolute;
+    right: 70px;
+    top: 100px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    padding: 25px 28px;
+    border-radius: 20px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+.card-icon-container {
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+img.card-icon {
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+}
+
+.card-title {
+    color: #595959;
+
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /*line-height: 180%;*/
+    letter-spacing: 0.02em;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+    color: #545567;
+
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    /*line-height: 180%;*/
+    letter-spacing: 0.02em;
+}
+
+.card-verified-sign {
+    position: absolute;
+    top: 21px;
+    right: 16px;
+}
+
+.card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 45px;
+    margin-top: 20px;
+    border-radius: 80px;
+    max-width: 180px;
+    cursor: pointer;
+    background-color: #D8587E;
+    color: #FFFFFF;
+
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /*line-height: 27px;*/
+}
+
+.card-students {
+    position: absolute;
+    left: 47%;
+    top: 200px;
+}
+
+.card-congratulation {
+    position: absolute;
+    right: 0;
+    top: 480px;
+}
+
+.card-congratulation .card-icon {
+    background: #F88C3D;
+}
+
+.card-user .card-icon-container {
+    position: relative;
+    top: -35px;
+}
+
+.active-user {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+.card-user {
+    position: absolute;
+    left: 47%;
+    top: 580px;
+}
+
+.partners {
 }
 
 
+/*Make our webpage responsive*/
 
+@media (max-width: 1800px) {
+    .introduction-content-container {
+        transform: scale(0.9);
+    }
 
+    .introduction-container {
+        padding-bottom: 350px;
+    }
+}
 
+@media (max-width: 1600px) {
+    .introduction-content-container {
+        transform: scale(0.8);
+    }
 
+    .introduction-container {
+        padding-bottom: 280px;
+    }
+}
 
+@media (max-width: 1430px) {
+    .introduction-content-container {
+        transform: scale(0.7);
+    }
 
+    .introduction-container {
+        padding-bottom: 210px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    /*Make our navbar responsive*/
+    .header-container {
+        position: relative;
+    }
+
+    .icon {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 40px;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    #open-hamburger-menu-icon {
+        display: inherit;
+    }
+
+    /*
+        The "responsive" class is added to the top-nav with JavaScript when the user clicks on the icon.
+        This class makes the top-nav look good on small screens (display the links vertically instead of horizontally)
+    */
+    .header-container.responsive {
+        flex-direction: column;
+    }
+
+    .responsive .logo {
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+
+    .responsive .menu-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .menu-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .mnu-btn {
+        width: 100%;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1250px) {
+    .introduction-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduction-content-container {
+        transform: scale(1.0);
+    }
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .left-container {
+        position: relative;
+    }
+
+    .introduction-container {
+        padding-bottom: 540px;
+    }
+
+    .girl-image {
+        transform: scale(0.6);
+        right: 0;
+        top: 200px;
+        border-radius: 0 0 380px/90px 0;
+    }
+
+    .card {
+        transform: scale(0.7);
+    }
+
+    .card-user {
+        left: 0;
+        top: 750px;
+    }
+
+    .card-congratulation {
+        right: 50%;
+        top: 580px;
+    }
+
+    .card-students {
+        left: 55%;
+        top: 700px;
+    }
+
+    .popularity-icon {
+        right: 0;
+        top: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .title{
+        font-size: 30px;
+        padding: 20px 0 20px 0;
+        line-height:50px;
+    }
+
+    .subtitle{
+        margin: 0 0 20px 0;
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .btn-container{
+        margin:0 0;
+    }
+
+    .girl-image{
+        top: 90px;
+    }
+
+    .card-user {
+        left: -5%;
+        top: 550px;
+    }
+
+    .card-congratulation {
+        right: 50%;
+        top: 300px;
+    }
+
+    .card-students {
+        left: 60%;
+        top: 590px;
+    }
+
+    .popularity-icon {
+        /*right: 0%;*/
+        top: 290px;
+    }
+}
+
+@media (max-width: 650px) {
+    .left-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+    }
+
+    .title{
+        margin: 0 0 0 -38px;
+        font-size: 20px;
+        line-height: 100%;
+        /*text-align: center;*/
+    }
+
+    .subtitle{
+        max-width: 425px;
+        margin: 0 0 20px 20px;
+        font-size: 19px;
+        line-height: 120%;
+    }
+
+    .btn-container{
+        transform:scale(0.8);
+    }
+
+    .girl-image{
+        top: 60px;
+        border-radius: 0 0 220px/70px 0;
+    }
+
+    .card {
+        transform: scale(0.6);
+    }
+
+    .popularity-icon {
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 570px) {
+    .card {
+        transform: scale(0.5);
+    }
+
+    .card-user {
+        left: 3%;
+    }
+
+    .card-congratulation {
+        right: 40%;
+        top: 270px;
+    }
+
+    .card-students {
+        left: 50%;
+        top: 490px;
+    }
+
+    .popularity-icon {
+        right: 15%;
+        /*top: 290px;*/
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-container{
+        transform:scale(0.7);
+    }
+
+    .menu-item{
+        font-size: 18px;
+    }
+
+    .mnu-btn{
+        font-size:18px;
+        padding: 10px 0;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .title{
+        transform: scale(0.8);
+        text-align: left;
+        margin: 0 0 0 -24px;
+    }
+
+    .subtitle{
+        transform: scale(0.8);
+        margin-bottom: 0;
+    }
+
+    .btn-container{
+        transform:scale(0.55);
+    }
+
+    .girl-image{
+        top: 38px;
+        border-radius: 220px/70px ;
+    }
+
+    .card-congratulation {
+        right: 27%;
+        top: 220px;
+    }
+
+    .card-students {
+        left: 36%;
+        top: 420px;
+    }
+
+    .card-user {
+        left: 11%;
+    }
+
+    .popularity-icon{
+        right: 18%;
+    }
+}
+
+@media (max-width: 400px){
+    .menu-item{
+        font-size: 14px;
+        line-height: 130%;
+
+    }
+
+    .mnu-btn{
+        font-size:14px;
+    }
+}
+
+@media (max-width: 340px) {
+    .title{
+        transform: scale(0.7);
+        text-align: left;
+        margin: 0 0 0 -20px;
+    }
+
+    .subtitle{
+        transform: scale(0.7);
+    }
+
+    .btn-container{
+        transform:scale(0.5);
+    }
+}
 
 
 
