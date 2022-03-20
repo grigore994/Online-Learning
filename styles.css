@@ -233,7 +233,6 @@ input, button, textarea, select {
 }
 
 .right-container {
-    /*position: relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,7 +289,6 @@ img.card-icon {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    /*line-height: 180%;*/
     letter-spacing: 0.02em;
 }
 
@@ -302,7 +300,6 @@ img.card-icon {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    /*line-height: 180%;*/
     letter-spacing: 0.02em;
 }
 
@@ -328,7 +325,6 @@ img.card-icon {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    /*line-height: 27px;*/
 }
 
 .card-students {
@@ -510,23 +506,23 @@ img.card-icon {
 }
 
 @media (max-width: 700px) {
-    .title{
+    .title {
         font-size: 30px;
         padding: 20px 0 20px 0;
-        line-height:50px;
+        line-height: 50px;
     }
 
-    .subtitle{
+    .subtitle {
         margin: 0 0 20px 0;
         font-size: 20px;
         line-height: 120%;
     }
 
-    .btn-container{
-        margin:0 0;
+    .btn-container {
+        margin: 0 0;
     }
 
-    .girl-image{
+    .girl-image {
         top: 90px;
     }
 
@@ -546,39 +542,37 @@ img.card-icon {
     }
 
     .popularity-icon {
-        /*right: 0%;*/
         top: 290px;
     }
 }
 
 @media (max-width: 650px) {
-    .left-container{
+    .left-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:flex-start;
+        justify-content: flex-start;
         flex-wrap: wrap;
     }
 
-    .title{
+    .title {
         margin: 0 0 0 -38px;
         font-size: 20px;
         line-height: 100%;
-        /*text-align: center;*/
     }
 
-    .subtitle{
+    .subtitle {
         max-width: 425px;
         margin: 0 0 20px 20px;
         font-size: 19px;
         line-height: 120%;
     }
 
-    .btn-container{
-        transform:scale(0.8);
+    .btn-container {
+        transform: scale(0.8);
     }
 
-    .girl-image{
+    .girl-image {
         top: 60px;
         border-radius: 0 0 220px/70px 0;
     }
@@ -613,45 +607,44 @@ img.card-icon {
 
     .popularity-icon {
         right: 15%;
-        /*top: 290px;*/
     }
 }
 
 @media (max-width: 500px) {
-    .btn-container{
-        transform:scale(0.7);
+    .btn-container {
+        transform: scale(0.7);
     }
 
-    .menu-item{
+    .menu-item {
         font-size: 18px;
     }
 
-    .mnu-btn{
-        font-size:18px;
+    .mnu-btn {
+        font-size: 18px;
         padding: 10px 0;
         line-height: 100%;
     }
 }
 
 @media (max-width: 450px) {
-    .title{
+    .title {
         transform: scale(0.8);
         text-align: left;
         margin: 0 0 0 -24px;
     }
 
-    .subtitle{
+    .subtitle {
         transform: scale(0.8);
         margin-bottom: 0;
     }
 
-    .btn-container{
-        transform:scale(0.55);
+    .btn-container {
+        transform: scale(0.55);
     }
 
-    .girl-image{
+    .girl-image {
         top: 38px;
-        border-radius: 220px/70px ;
+        border-radius: 220px/70px;
     }
 
     .card-congratulation {
@@ -668,36 +661,36 @@ img.card-icon {
         left: 11%;
     }
 
-    .popularity-icon{
+    .popularity-icon {
         right: 18%;
     }
 }
 
-@media (max-width: 400px){
-    .menu-item{
+@media (max-width: 400px) {
+    .menu-item {
         font-size: 14px;
         line-height: 130%;
 
     }
 
-    .mnu-btn{
-        font-size:14px;
+    .mnu-btn {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 340px) {
-    .title{
+    .title {
         transform: scale(0.7);
         text-align: left;
         margin: 0 0 0 -20px;
     }
 
-    .subtitle{
+    .subtitle {
         transform: scale(0.7);
     }
 
-    .btn-container{
-        transform:scale(0.5);
+    .btn-container {
+        transform: scale(0.5);
     }
 }
 
