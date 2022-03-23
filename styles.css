@@ -360,9 +360,299 @@ img.card-icon {
     top: 580px;
 }
 
-.partners {
+.partners-section {
+    padding: 100px 0 0 0;
 }
 
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-title {
+    margin: 0 0 50px 0;
+    color: #696984;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+
+.partners-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner-logo {
+    padding: 0 35px;
+    margin-bottom: 45px;
+}
+
+.services-section {
+    padding: 110px 0 150px 0;
+}
+
+.section-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    color: #2F327D;
+    margin: 0 0 20px 0;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /*line-height: 180%;*/
+}
+
+.section-subtitle {
+    color: #696984;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+    text-align: center;
+}
+
+.services-section .section-subtitle {
+    max-width: 840px;
+}
+
+.service-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 160px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    padding: 0 50px 50px 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 130px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+}
+
+.service-card-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    border-radius: 100%;
+    box-shadow: 0 10px 40px rgba(54, 61, 136, 0.06);
+}
+
+.service-card:nth-child(1) .service-card-icon {
+    background-color: #5B72EE;
+}
+
+.service-card:nth-child(2) .service-card-icon {
+    background-color: #F48C06;
+}
+
+.service-card:nth-child(3) .service-card-icon {
+    margin-top: -98px;
+    background-color: #29B9E7;
+}
+
+.service-card-title {
+    color: #2F327D;
+    margin-top: 80px;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.service-card-subtitle {
+    color: #696984;
+    margin-top: 25px;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+}
+
+.section-about-us .section-subtitle {
+    max-width: 1100px;
+}
+
+.about-us-content {
+    padding: 80px 0 160px 0;
+}
+
+.about-us-top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 160px;
+}
+
+.for-instructors {
+    background-image: url("/assets/for-instructors.png");
+}
+
+.for-students {
+    background-image: url("/assets/for-students.png");
+}
+
+.about-us-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px 0 50px;
+    border-radius: 20px;
+    max-width: 600px;
+    height: 400px;
+    width: 100%;
+}
+
+.about-us-card-title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    /*line-height: 48px;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-us-btn {
+    border-radius: 80px;
+    padding: 25px 35px;
+    margin-top: 17px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    /*line-height: 33px;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.instructors-btn {
+    border: 1px solid #FFFFFF;
+}
+
+.students-btn {
+    background: rgba(35, 189, 238, 0.9);
+}
+
+.about-us-bottom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-description-container {
+    flex: 0 1 50%;
+    padding: 30px 0 0 110px;
+
+}
+
+.about-us-description-title {
+    max-width: 655px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    color: #2F327D;
+}
+
+.about-us-description-text {
+    max-width: 700px;
+    margin: 30px 0;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.learn-more {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    cursor: pointer;
+    /*line-height: 180%;*/
+    /* identical to box height, or 40px */
+    text-decoration-line: underline;
+    color: #696984;
+}
+
+.about-us-video-container {
+    /*flex: 0 1 50%;*/
+    position: relative;
+
+}
+
+.classroom-img {
+    padding-left: 50px;
+    z-index: 5;
+    position: relative;
+}
+
+.square {
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.blue-corner {
+    width: 138px;
+    height: 138px;
+    background-color: #23BDEE;
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    top: -18px;
+}
+
+.orange-corner {
+    width: 231px;
+    height: 231px;
+    background-color: #F3AC50;
+    position: relative;
+    left: 72.5%;
+    bottom: 30%;
+    z-index: -1;
+}
 
 /*Make our webpage responsive*/
 
@@ -386,6 +676,20 @@ img.card-icon {
     }
 }
 
+@media (max-width: 1550px) {
+    .services-section {
+        padding-bottom: 20px;
+    }
+
+    .service-card:nth-child(3) .service-card-icon {
+        margin-top: -50px;
+    }
+
+    .about-us-description-container {
+        padding-left: 50px;
+    }
+}
+
 @media (max-width: 1430px) {
     .introduction-content-container {
         transform: scale(0.7);
@@ -393,6 +697,15 @@ img.card-icon {
 
     .introduction-container {
         padding-bottom: 210px;
+    }
+
+    .about-us-card:nth-child(1) {
+        margin-bottom: 50px;
+    }
+
+    .orange-corner {
+        left: 70.5%;
+        bottom: 31%;
     }
 }
 
@@ -449,6 +762,21 @@ img.card-icon {
         margin: 0 0 15px 0;
         text-align: center;
     }
+
+    .orange-corner {
+        left: 68.5%;
+        bottom: 32%;
+    }
+
+    .about-us-description-title {
+        font-size: 28px;
+        line-height: 160%;
+    }
+
+    .about-us-description-text {
+        font-size: 20px;
+        line-height: 180%;
+    }
 }
 
 @media (max-width: 1250px) {
@@ -503,6 +831,56 @@ img.card-icon {
         right: 0;
         top: 500px;
     }
+
+    .about-us-card {
+        margin: 0 0;
+    }
+}
+
+@media (max-width: 1150px) {
+    .about-us-description-container {
+        padding-left: 10px;
+    }
+
+    .orange-corner {
+        left: 66.5%;
+        bottom: 34%;
+    }
+
+    .about-us-description-text {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .about-us-top-container {
+        padding-bottom: 60px;
+    }
+
+    .about-us-bottom-container {
+        flex-direction: column;
+    }
+
+    .about-us-description-container {
+        margin-bottom: 70px;
+    }
+
+    .classroom-img {
+        padding-left: 25px;
+    }
+
+    .blue-corner {
+        left: 5px;
+    }
+
+    .orange-corner {
+        display: none;
+        /*left:68.5%;*/
+    }
+
+    .about-us-content {
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -543,6 +921,10 @@ img.card-icon {
 
     .popularity-icon {
         top: 290px;
+    }
+
+    .partners-title {
+        font-size: 24px;
     }
 }
 
@@ -608,6 +990,53 @@ img.card-icon {
     .popularity-icon {
         right: 15%;
     }
+
+
+    .partners-title {
+        font-size: 20px;
+    }
+
+    .services-section {
+        padding: 80px 0 0 0;
+    }
+
+    .section-introduction {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .section-subtitle {
+        text-align: left;
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .service-card {
+        padding: 0 25px 25px 25px;
+        margin: 0 0 100px 0;
+    }
+
+    .service-card-title {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .service-card-subtitle {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .about-us-description-title {
+        font-size: 23px;
+    }
+
+    .about-us-description-text {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -664,6 +1093,42 @@ img.card-icon {
     .popularity-icon {
         right: 18%;
     }
+
+    .partners-section {
+        padding: 40px 0 0 0;
+    }
+
+    .partners-title {
+        font-size: 18px;
+        margin: 0 0 25px 0;
+    }
+
+    .partner-logo {
+        transform: scale(0.7);
+        margin: 0 0 25px 0;
+        padding: 0 20px;
+    }
+
+
+    .about-us-card {
+        height: 250px;
+    }
+
+    .about-us-card-title {
+        font-size: 25px;
+    }
+
+    .about-us-btn {
+        font-size: 18px;
+        padding: 20px 25px;
+    }
+
+    .blue-corner {
+        width: 75px;
+        height: 75px;
+        left: 8px;
+        top: -15px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -675,6 +1140,11 @@ img.card-icon {
 
     .mnu-btn {
         font-size: 14px;
+    }
+
+    .service-card-title {
+        font-size: 22px;
+        line-height: 150%;
     }
 }
 
@@ -691,6 +1161,18 @@ img.card-icon {
 
     .btn-container {
         transform: scale(0.5);
+    }
+
+    .about-us-content {
+        padding-top: 40px;
+    }
+
+    .about-us-card {
+        height: 200px;
+    }
+
+    .about-us-card:nth-child(1) {
+        margin-bottom: 20px;
     }
 }
 
