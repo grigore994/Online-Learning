@@ -527,11 +527,11 @@ input, button, textarea, select {
 }
 
 .for-instructors {
-    background-image: url("/assets/for-instructors.png");
+    background-image: url("/src/assets/for-instructors.png");
 }
 
 .for-students {
-    background-image: url("/assets/for-students.png");
+    background-image: url("/src/assets/for-students.png");
 }
 
 .about-us-card {

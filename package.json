@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/grigore994/Online-Learning-Landing-Page#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "path": "^0.12.7"
   }
 }
