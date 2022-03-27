@@ -50,8 +50,6 @@ input, button, textarea, select {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
-    padding-bottom: 100px;
 }
 
 /* zeroing end */
@@ -159,9 +157,6 @@ input, button, textarea, select {
 .orange-btn {
     color: #FFFFFF;
     background-color: #F48C06;
-}
-
-.main-container {
 }
 
 .introduction-container {
@@ -283,9 +278,6 @@ input, button, textarea, select {
     backdrop-filter: blur(20px);
 }
 
-.card-icon-container {
-}
-
 .card-icon {
     width: 50px;
     height: 50px;
@@ -293,9 +285,6 @@ input, button, textarea, select {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-}
-
-img.card-icon {
 }
 
 .card-text-container {
@@ -396,7 +385,6 @@ img.card-icon {
 .partners-title {
     margin: 0 0 50px 0;
     color: #696984;
-
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 500;
@@ -431,23 +419,19 @@ img.card-icon {
 .section-title {
     color: #2F327D;
     margin: 0 0 20px 0;
-
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    /*line-height: 180%;*/
 }
 
 .section-subtitle {
     color: #696984;
-
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 180%;
-    /* or 43px */
     text-align: center;
 }
 
@@ -517,7 +501,6 @@ img.card-icon {
 .service-card-subtitle {
     color: #696984;
     margin-top: 25px;
-
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 400;
@@ -568,7 +551,6 @@ img.card-icon {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
-    /*line-height: 48px;*/
     text-align: center;
     color: #FFFFFF;
 }
@@ -581,7 +563,6 @@ img.card-icon {
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    /*line-height: 33px;*/
     text-align: center;
     color: #FFFFFF;
 }
@@ -633,14 +614,11 @@ img.card-icon {
     font-weight: 400;
     font-size: 22px;
     cursor: pointer;
-    /*line-height: 180%;*/
-    /* identical to box height, or 40px */
     text-decoration-line: underline;
     color: #696984;
 }
 
 .about-us-video-container {
-    /*flex: 0 1 50%;*/
     position: relative;
 
 }
@@ -717,7 +695,6 @@ img.card-icon {
 }
 
 .feature-first-row .feature-img-container {
-    /*flex: 0 0 50%;*/
     padding: 0 0;
     flex-shrink: 0;
 }
@@ -932,15 +909,6 @@ img.card-icon {
     flex: 0 1 50%;
 }
 
-.testimonials-first-row {
-}
-
-img .testimonials-first-row {
-}
-
-.testimonials-second-row {
-}
-
 .testimonial-card {
     max-width: 680px;
     padding: 40px 40px 30px 40px;
@@ -977,12 +945,6 @@ img .testimonials-first-row {
     color: #5F5F7E;
 }
 
-.testimonial-card-rating-block {
-}
-
-.rating-img {
-}
-
 .testimonial-card-reviews {
     padding: 12px 0 0;
     font-family: 'Nunito Sans', serif;
@@ -997,31 +959,236 @@ img .testimonials-first-row {
     align-items: center;
 }
 
-.news-title {
-    padding-bottom: 30px;
+.news-title-container .news-title {
+    padding-bottom: 10px;
     font-family: 'Nunito Sans', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    /*line-height: 180%;*/
-    /*!* identical to box height, or 65px *!*/
     color: #2F327D;
 }
 
-.news-subtitle {
+.news-title-container .news-subtitle {
     font-family: 'Nunito Sans', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    /*line-height: 180%;*/
-    /* or 43px */
-    /*text-align: center;*/
     color: #696984;
+    max-width: 100%;
+    line-height: 100%;
+}
 
+.news-row {
+    padding: 70px 0 100px 0;
+}
+
+.news-left-container {
+    flex: 0 1 50%;
+    align-items: center;
+}
+
+.news-right-container {
+    flex: 0 1 50%;
+}
+
+.img-container {
+}
+
+.news-sign {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #252641;
+    background: #F4C467;
+    border-radius: 80px;
+    padding: 8px 20px;
+}
+
+.news-big-sign {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 40px 0 20px 0;
+}
+
+.news-title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 180%;
+    color: #252641;
+    max-width: 610px;
+}
+
+.news-subtitle {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+    max-width: 610px;
+    padding: 20px 0 30px 0;
+}
+
+.read-more {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #696984;
+    cursor: pointer;
+}
+
+.notice-row {
+    padding-bottom: 50px;
+}
+
+.notice-img-container {
+    position: relative;
+}
+
+.notice-img {
+    max-width: 280px;
+}
+
+.notice-sign-row {
+    position: absolute;
+    top: 160px;
+    right: 20px;
+}
+
+.notice-description {
+    padding: 0 40px 0 40px;
+}
+
+.notice-title {
+    padding-bottom: 20px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #252641;
+}
+
+.notice-subtitle {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.section-subscribe {
+    background-color: #252641;
+    padding: 75px 0 100px 0;
+}
+
+.subscribe-container {
+    align-items: center;
+}
+
+.subscribe-first-row {
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.subscribe-logo-container {
+    padding-right: 40px;
+}
+
+.logo-name {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    max-width: 200px;
+    padding-left: 40px;
+    align-items: flex-end;
+}
+
+.form-title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #B2B3CF;
+    padding-bottom: 20px;
+}
+
+.form-row {
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input {
+    padding: 15px 30px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #83839A;
+    background-color: #252641;
+    border: 1px solid #83839A;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+
+.form-btn {
+    padding: 18px 35px;
+    margin-left: 20px;
+    background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+    border-radius: 60px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #252641;
+}
+
+.footer-container {
+    align-items: center;
+    padding-bottom: 40px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    color: #B2B3CF;
+}
+
+.footer-link {
+    padding: 0 20px;
+}
+
+.footer-link:not(:last-child) {
+    border-right: 1px solid #626381;
+}
+
+.footer-second-row {
+    padding-top: 20px;
 }
 
 /*Make our webpage responsive*/
-
 @media (max-width: 1800px) {
     .introduction-content-container {
         transform: scale(0.9);
@@ -1085,13 +1252,11 @@ img .testimonials-first-row {
     .testimonials-first-row img {
         width: 450px;
         height: 560px;
-        /*transform: scale(0.8);*/
     }
 
     .testimonial-card {
         padding: 20px 20px 15px 20px;
         max-width: 470px;
-        /*transform: scale(0.8);*/
     }
 
     .testimonial-card-user-review {
@@ -1115,6 +1280,25 @@ img .testimonials-first-row {
     .testimonial-card-reviews {
         font-size: 14px;
         padding: 8px 0 0;
+    }
+
+    .news-right-container {
+        padding-left: 20px;
+    }
+
+    .notice-description {
+        padding-right: 0;
+    }
+
+    .notice-title {
+        font-size: 18px;
+        line-height: 140%;
+        padding-bottom: 10px;
+    }
+
+    .notice-subtitle {
+        font-size: 16px;
+        line-height: 140%;
     }
 }
 
@@ -1299,6 +1483,10 @@ img .testimonials-first-row {
     .feature-fifth-row .feature-description-container {
         padding-top: 40px;
     }
+
+    .notice-description {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1318,7 +1506,24 @@ img .testimonials-first-row {
         padding-bottom: 20px;
     }
 
+    .notice-img {
+        max-width: 200px;
+    }
 
+    .notice-sign-row {
+        top: 100px;
+        right: 15px;
+    }
+
+    .notice-title {
+        font-size: 15px;
+        line-height: 120%;
+    }
+
+    .notice-subtitle {
+        font-size: 13px;
+        line-height: 120%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -1344,7 +1549,6 @@ img .testimonials-first-row {
 
     .orange-corner {
         display: none;
-        /*left:68.5%;*/
     }
 
     .about-us-content {
@@ -1416,7 +1620,6 @@ img .testimonials-first-row {
     }
 
     .testimonials-first-row img {
-        /*width: ;*/
         height: 450px;
     }
 
@@ -1439,8 +1642,6 @@ img .testimonials-first-row {
     .testimonial-card-rating-block {
         align-items: flex-end;
         justify-content: flex-end;
-        /*position: relative;*/
-        /*padding-top: 20px;*/
     }
 
     .rating-img {
@@ -1463,6 +1664,39 @@ img .testimonials-first-row {
     .integration-left-container {
         padding-top: 30px;
     }
+
+    .news-title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .news-big-sign {
+        margin-top: 20px;
+    }
+
+    .news-subtitle {
+        font-size: 15px;
+        line-height: 120%;
+        padding: 10px 0 15px 0;
+    }
+
+    .read-more {
+        font-size: 13px;
+    }
+
+    .notice-img {
+        max-width: 140px;
+    }
+
+    .notice-sign-row {
+        top: 70px;
+        right: 10px;
+    }
+
+    .news-sign {
+        font-size: 10px;
+        padding: 8px 10px 5px 8px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -1473,12 +1707,6 @@ img .testimonials-first-row {
     .integration-logo-img {
         padding: 32px 35px;
     }
-}
-
-@media (max-width: 725px) {
-    /*.testimonial-btn{*/
-    /*    margin-left: -60px;*/
-    /*}*/
 }
 
 @media (max-width: 700px) {
@@ -1523,6 +1751,15 @@ img .testimonials-first-row {
 
     .partners-title {
         font-size: 24px;
+    }
+
+    .news-row {
+        flex-direction: column;
+        padding: 40px 0 50px 0;
+    }
+
+    .news-right-container {
+        padding: 30px 0 0 0;
     }
 }
 
@@ -1587,6 +1824,23 @@ img .testimonials-first-row {
 
     .testimonial-card {
         margin: -80px 0 0 100px;
+    }
+
+    .form-input {
+        max-width: 300px;
+    }
+
+    .footer-first-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-link {
+        margin-bottom: 15px;
+    }
+
+    .footer-link:nth-child(2) {
+        border-right: none;
     }
 }
 
@@ -1707,6 +1961,29 @@ img .testimonials-first-row {
     .testimonials-left-container {
         padding-left: 0;
     }
+
+    .form-container * {
+        max-width: 450px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-input {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-btn {
+        margin: 0 0;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1787,6 +2064,10 @@ img .testimonials-first-row {
     .testimonial-card {
         margin-left: 50px;
     }
+
+    .form-container * {
+        max-width: 380px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1840,6 +2121,46 @@ img .testimonials-first-row {
 
     .testimonial-card {
         margin-left: 20px;
+    }
+
+    .notice-title {
+        font-size: 13px;
+        line-height: 110%;
+        padding-bottom: 5px;
+    }
+
+    .subscribe-first-row {
+        padding-bottom: 50px;
+    }
+
+    .subscribe-logo-container {
+        padding-right: 15px;
+    }
+
+    .logo-name {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .form-container * {
+        max-width: 310px;
+    }
+
+    .form-input {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .form-btn {
+        padding: 12px 20px;
+    }
+
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .copyright {
+        font-size: 16px;
     }
 }
 
