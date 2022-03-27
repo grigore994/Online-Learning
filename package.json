@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/grigore994/Online-Learning-Landing-Page/issues"
   },
-  "homepage": "https://github.com/grigore994/Online-Learning-Landing-Page#readme"
+  "homepage": "https://github.com/grigore994/Online-Learning-Landing-Page#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
