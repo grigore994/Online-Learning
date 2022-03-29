@@ -13,9 +13,6 @@
   },
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "16.14.2"
-  },
   "bugs": {
     "url": "https://github.com/grigore994/Online-Learning-Landing-Page/issues"
   },
